@@ -1,33 +1,35 @@
 /* About Section */
 .about {
-  padding: 100px 0;
-  background: #f8f9fa;
+  padding: 60px 0;
+  background: white;
+  border-bottom: 1px solid #eee;
 }
 
 .about-content {
-  display: grid;
-  grid-template-columns: 2fr 1fr;
-  gap: 4rem;
-  align-items: center;
+  max-width: 600px;
+  margin: 0 auto;
+  text-align: center;
 }
 
 .about-text h3 {
-  font-size: 1.8rem;
-  margin-bottom: 1.5rem;
-  color: #2c3e50;
+  font-size: 1.3rem;
+  margin-bottom: 20px;
+  color: #333;
+  font-weight: 400;
 }
 
 .about-text p {
-  font-size: 1.1rem;
-  margin-bottom: 1.5rem;
+  font-size: 1rem;
+  margin-bottom: 20px;
   color: #666;
-  line-height: 1.8;
+  line-height: 1.6;
 }
 
 .about-stats {
   display: flex;
-  gap: 2rem;
-  margin-top: 2rem;
+  gap: 40px;
+  margin-top: 30px;
+  justify-content: center;
 }
 
 .stat {
@@ -35,10 +37,10 @@
 }
 
 .stat h4 {
-  font-size: 2rem;
-  font-weight: 700;
-  color: #3498db;
-  margin-bottom: 0.5rem;
+  font-size: 1.5rem;
+  font-weight: 400;
+  color: #333;
+  margin-bottom: 5px;
 }
 
 .stat p {
@@ -47,21 +49,7 @@
 }
 
 .about-image {
-  display: flex;
-  justify-content: center;
-}
-
-.image-placeholder {
-  width: 250px;
-  height: 250px;
-  background: linear-gradient(135deg, #3498db, #2980b9);
-  border-radius: 20px;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  color: white;
-  font-size: 4rem;
-  box-shadow: 0 10px 30px rgba(52, 152, 219, 0.3);
+  display: none;
 }
 
 /* Responsive Design */

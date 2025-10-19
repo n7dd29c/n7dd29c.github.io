@@ -2,22 +2,6 @@ import React, { useEffect, useState } from 'react';
 import './Hero.css';
 
 const Hero = () => {
-  const [displayedText, setDisplayedText] = useState('');
-  const fullText = '안녕하세요, Synthyroider입니다';
-
-  useEffect(() => {
-    let index = 0;
-    const timer = setInterval(() => {
-      if (index < fullText.length) {
-        setDisplayedText(fullText.slice(0, index + 1));
-        index++;
-      } else {
-        clearInterval(timer);
-      }
-    }, 100);
-
-    return () => clearInterval(timer);
-  }, []);
 
   const scrollToSection = (sectionId) => {
     const element = document.getElementById(sectionId);
@@ -35,8 +19,7 @@ const Hero = () => {
       <div className="hero-container">
         <div className="hero-content">
           <h1 className="hero-title">
-            <span className="highlight">{displayedText}</span>
-            <span className="cursor">|</span>
+            <span className="highlight">안녕하세요, Synthyroider입니다</span>
           </h1>
           <p className="hero-subtitle">
             창의적이고 혁신적인 웹 개발자
