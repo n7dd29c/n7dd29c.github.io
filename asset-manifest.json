@@ -1,15 +1,15 @@
 {
   "files": {
     "main.css": "/synthyroider.github.io/static/css/main.155396c1.css",
-    "main.js": "/synthyroider.github.io/static/js/main.513fe2f9.js",
+    "main.js": "/synthyroider.github.io/static/js/main.a263d88f.js",
     "static/js/453.486ab5b0.chunk.js": "/synthyroider.github.io/static/js/453.486ab5b0.chunk.js",
     "index.html": "/synthyroider.github.io/index.html",
     "main.155396c1.css.map": "/synthyroider.github.io/static/css/main.155396c1.css.map",
-    "main.513fe2f9.js.map": "/synthyroider.github.io/static/js/main.513fe2f9.js.map",
+    "main.a263d88f.js.map": "/synthyroider.github.io/static/js/main.a263d88f.js.map",
     "453.486ab5b0.chunk.js.map": "/synthyroider.github.io/static/js/453.486ab5b0.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.155396c1.css",
-    "static/js/main.513fe2f9.js"
+    "static/js/main.a263d88f.js"
   ]
 }
