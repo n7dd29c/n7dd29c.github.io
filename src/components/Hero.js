@@ -1,62 +1,29 @@
-import React, { useEffect, useState } from 'react';
-import './Hero.css';
+import React from 'react';
 
 const Hero = () => {
-
-  const scrollToSection = (sectionId) => {
-    const element = document.getElementById(sectionId);
-    if (element) {
-      const offsetTop = element.offsetTop - 70;
-      window.scrollTo({
-        top: offsetTop,
-        behavior: 'smooth'
-      });
-    }
-  };
-
   return (
-    <section id="home" className="hero">
-      <div className="hero-container">
-        <div className="hero-content">
-          <h1 className="hero-title">
-            <span className="highlight">안녕하세요, Synthyroider입니다</span>
-          </h1>
-          <p className="hero-subtitle">
-            창의적이고 혁신적인 웹 개발자
-          </p>
-          <p className="hero-description">
-            사용자 경험을 중시하며, 현대적인 웹 기술을 활용해 
-            의미 있는 디지털 솔루션을 만들어갑니다.
-          </p>
-          <div className="hero-buttons">
-            <button 
-              className="btn btn-primary"
-              onClick={() => scrollToSection('projects')}
-            >
-              프로젝트 보기
-            </button>
-            <button 
-              className="btn btn-secondary"
-              onClick={() => scrollToSection('contact')}
-            >
-              연락하기
-            </button>
-          </div>
-        </div>
-        <div className="hero-image">
-          <div className="profile-card">
-            <div className="profile-image">
-              <i className="fas fa-user-circle"></i>
-            </div>
-          </div>
-        </div>
+    <div className="section">
+      <h1 className="section-title">안녕하세요, Synthyroider입니다</h1>
+      <div className="section-content">
+        <h2>웹 개발자</h2>
+        <p>
+          사용자 경험을 중시하며, 현대적인 웹 기술을 활용해 
+          의미 있는 디지털 솔루션을 만들어갑니다.
+        </p>
+        <p>
+          지속적으로 새로운 기술을 학습하고 적용하는 것을 즐기며, 
+          깔끔하고 효율적인 코드를 작성하는 것을 추구합니다.
+        </p>
+        
+        <h2>주요 관심사</h2>
+        <ul>
+          <li>사용자 중심의 웹 애플리케이션 개발</li>
+          <li>반응형 웹 디자인과 접근성</li>
+          <li>현대적인 JavaScript 프레임워크</li>
+          <li>클린 코드와 아키텍처 설계</li>
+        </ul>
       </div>
-      <div className="scroll-indicator">
-        <div className="scroll-arrow">
-          <i className="fas fa-chevron-down"></i>
-        </div>
-      </div>
-    </section>
+    </div>
   );
 };
 
