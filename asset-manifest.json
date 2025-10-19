@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/synthyroider.github.io/static/css/main.78a31f9a.css",
+    "main.js": "/synthyroider.github.io/static/js/main.6807b23f.js",
+    "static/js/453.486ab5b0.chunk.js": "/synthyroider.github.io/static/js/453.486ab5b0.chunk.js",
+    "index.html": "/synthyroider.github.io/index.html",
+    "main.78a31f9a.css.map": "/synthyroider.github.io/static/css/main.78a31f9a.css.map",
+    "main.6807b23f.js.map": "/synthyroider.github.io/static/js/main.6807b23f.js.map",
+    "453.486ab5b0.chunk.js.map": "/synthyroider.github.io/static/js/453.486ab5b0.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.78a31f9a.css",
+    "static/js/main.6807b23f.js"
+  ]
+}
