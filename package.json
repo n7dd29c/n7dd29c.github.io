@@ -20,7 +20,7 @@
     "predeploy": "npm run build",
     "deploy": "gh-pages -d build"
   },
-  "homepage": "https://n7dd29c.github.io/synthyroider.github.io",
+  "homepage": "https://n7dd29c.github.io",
   "eslintConfig": {
     "extends": [
       "react-app",
